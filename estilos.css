@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(./imagenes/tipos-de-concesionarios.jpg);
+    
+}
+
+.contenedor-menu{
+    
+    
+    
+    width: 95%;
+    margin: auto;
+   
+}
+
+.menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+ol{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+} 
+    
+
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: antiquewhite;
+}
+
+.contenedor-main{
+    background-color: black;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
